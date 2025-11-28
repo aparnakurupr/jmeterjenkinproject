@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from Git repository
-                git url: 'https://github.com/yourusername/yourrepo.git', branch: 'main'  // Replace with your repo URL and branch
+                git url: 'https://github.com/aparnakurupr/jmeterjenkinproject.git', branch: 'main'  // Replace with your repo URL and branch
             }
         }
 
